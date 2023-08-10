@@ -1,0 +1,17 @@
+name: 'LuckyCommands'
+version: '1.0-SNAPSHOT'
+author: 'Anonymous_Dr'
+main: 'com.anderhurtado.java.spigot.luckycommands.LuckyCommands'
+api-version: '1.13'
+commands:
+  executerandomly:
+    description: Execute randomly a command
+    permission: luckycommands.command.executerandomly
+  executerandomlyjson:
+    description: Execute randomly commands defined by a JSON
+    permission: luckycommands.command.executerandomlyjson
+permissions:
+  luckycommands.command.executerandomly:
+    default: op
+  luckycommands.command.executerandomlyjson:
+    default: op
