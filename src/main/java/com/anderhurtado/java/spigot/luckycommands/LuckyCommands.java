@@ -15,5 +15,6 @@ public final class LuckyCommands extends JavaPlugin {
         getCommand("executerandomlyjson").setExecutor(new ExecuteRandomlyJSON());
         saveDefaultConfig();
         Config.loadConfig(getConfig());
+        new Metrics(this, 19451);
     }
 }
