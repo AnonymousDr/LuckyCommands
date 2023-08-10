@@ -7,7 +7,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public final class LuckyCommands extends JavaPlugin {
 
-    public static final String WIKI_LINK = "";
+    public static final String WIKI_LINK = "https://github.com/AnonymousDr/LuckyCommands/wiki";
 
     @Override
     public void onEnable() {
